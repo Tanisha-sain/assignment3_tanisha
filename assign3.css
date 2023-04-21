@@ -1,0 +1,167 @@
+body {
+    margin-bottom: 40px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIt-uCOmL6xtqFnLe2JZVvNAMwuq8PYtrubg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    z-index: 10;
+    background-color: white;
+    width: 80%;
+    border: solid;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 30px;
+    border-color: rgb(198, 201, 201);
+    box-shadow: 2px 2px 20px rgba(36, 91, 125, 0.545);
+
+
+}
+
+.h {
+    font-size: bolder;
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    color: rgb(2, 49, 80);
+}
+
+label,
+input {
+    display: block;
+    margin-left: 3px;
+    margin-top: 4px;
+}
+
+label {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+input {
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(213, 211, 211);
+
+    margin-bottom: 12px;
+    height: 20px;
+    width: 97%;
+    background-color: rgb(222, 237, 241);
+    cursor: pointer;
+
+
+}
+
+
+p,
+.cont {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+.a1,
+.a2,
+.n {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.str,
+.ci,
+.sta,
+.pi,
+.fn,
+.ln {
+    width: 49%;
+
+}
+
+
+
+
+
+
+
+.contact {
+    width: 40%;
+    margin-left: 14px;
+}
+
+.E,
+.G,
+.B {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 2px;
+
+}
+
+
+
+.exc,
+.good,
+.bad {
+    width: 20%;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+.lb,
+.lg,
+.le {
+    width: 80px;
+}
+
+
+
+
+.but {
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+.sub,
+.res {
+    font-style: italic;
+    font-weight: bold;
+    padding: 6px;
+    height: 30px;
+    width: 40%;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(104, 185, 239);
+    color: rgba(0, 0, 0, 0.786);
+    cursor: pointer;
+    box-shadow: 1px 1px 15px rgba(123, 123, 124, 0.545);
+
+}
